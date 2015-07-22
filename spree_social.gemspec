@@ -26,9 +26,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'oa-core'
   s.add_runtime_dependency 'omniauth-twitter'
   s.add_runtime_dependency 'omniauth-facebook'
-  s.add_runtime_dependency 'omniauth-github'
+  #s.add_runtime_dependency 'omniauth-github'
   s.add_runtime_dependency 'omniauth-google-oauth2'
-  s.add_runtime_dependency 'omniauth-amazon'
+  #s.add_runtime_dependency 'omniauth-amazon'
 
   s.add_development_dependency 'capybara', '~> 2.4.1'
   s.add_development_dependency 'database_cleaner', '1.3.0'
